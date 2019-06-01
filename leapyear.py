@@ -1,0 +1,10 @@
+r=int(input())
+if year % 4 != 0:
+  print("normal year")
+elif year % 100 == 0:
+  if year % 400 == 0:
+    print("leap year")
+  else:
+      print("normal year")
+else:
+      print("leap year")
